@@ -1,0 +1,20 @@
+.weather-container {
+    background: #c1f3ec;
+    text-align: center;
+    margin: auto;
+}
+
+.weather {
+    font-size: 22px;
+    margin: 0;
+}
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.lon, .lat {
+    font-size: 22px;
+    margin: 0;
+}
