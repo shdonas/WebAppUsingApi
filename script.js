@@ -1,5 +1,7 @@
 
 
+// weather api
+
 var originalApi = "https://api.openweathermap.org/data/2.5/weather?q=Pennsylvania&units=imperial&appid=f4cc075ea301646a421c78dc383a795a";
 
 var apiProvider = "openweathermap.org";
@@ -31,6 +33,10 @@ function(data){
     $(".lon").append(lon);
     $(".lat").append(lat);
 })
+
+
+
+// currency api
 
 $.getJSON("http://data.fixer.io/api/latest?access_key=c136a6fbf1861caf57879b4cddaed923",
 function(currencyData){
