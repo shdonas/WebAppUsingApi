@@ -46,3 +46,5 @@ function(currencyData){
     var rate = "One USD = " + parseFloat(euroToUsd).toFixed(2) + " EURO";
     $('.rate').append(rate);
 })
+
+// jenkins build dont display api data
